@@ -1,0 +1,199 @@
+/* ---- grid-column ---- */
+
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.albums{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.review-articles{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+}
+
+/* ---- typography n background---- */
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.02rem;
+    /*
+    19px --> 19px(3/4)/14pt=1.02rem
+    */
+}
+
+.nav a{
+    color: #2490be;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2{
+    color: #2490be;
+    font-size: 1.72rem;
+    /*
+    32px --> 32px(3/4)/14pt=1.72rem
+    */
+}
+
+h3{
+    color: #2490be;
+    font-size: 1.07rem;
+    /*
+    20px --> 20px(3/4)/14pt=1.07rem
+    */
+}
+
+.albums p{
+    font-size: 0.76rem;
+    /*
+    12px --> 12px(3/4)/14pt=0.73rem
+    */
+}
+
+.social-media{
+    color: #2490be;
+}
+
+header{
+    background-color: #ebfdff;
+}
+
+footer{
+    background-color: #ebfdff;
+    font-weight: bold;
+}
+
+footer a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-social-media{
+    color: #2490be;
+}
+
+
+/* ---- margin/padding/display ---- */
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.company-logo{
+    margin-left: 2.0rem;
+}
+
+h2{
+    margin-left: 2.7rem;
+    margin-bottom: 0%;
+}
+
+h3{
+    margin-bottom: 0.40rem;
+}
+
+.albums p{
+    margin-top: 0%;
+    line-height: 0.40rem;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav a{
+    margin-right: 1.536rem;
+}
+
+.social-media{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 2.75rem;
+}
+
+.social-media i{
+    margin-right: 0.75rem;
+    /*
+    14px --> 14px(3/4)/14pt=0.75rem
+    */
+    font-size: 2.68rem;
+    /*
+    50px --> 50px(3/4)/14pt=2.68rem
+    */
+}
+
+footer a{
+    margin-right: 0.38rem;
+    /*
+    7px --> 7px(3/4)/14pt=0.38rem
+    */
+    display: block;
+    margin-bottom: 0.536rem;
+    /*
+    10px --> 10px(3/4)/14pt=0.536rem
+    */
+}
+
+.footer-social-media i{
+    margin-right: 0.38rem;
+    /*
+    7px --> 14px(3/4)/14pt=0.38rem
+    */
+    font-size: 2.61rem;
+}
+
+header{
+    padding: 0.536rem;
+    /*
+    10px --> 10px(3/4)/14pt=0.536rem
+    */
+}
+
+footer{
+    padding: 6.43rem;
+    /*
+    120px --> 120px(3/4)/14pt=6.43rem
+    */
+}
+
+footer div{
+    margin: 0.536rem;
+}
+
+.review-articles{
+    margin: 1.51rem;
+    margin-top: 0%;
+}
+
+.review-articles p{
+    margin-top: 0.40rem;
+}
+
+article{
+    margin: 1.61rem;
+    /*
+    30px --> 30px(3/4)/14pt=1.61rem
+    */
+}
+
+/* ---- resize element ---- */
+
+img{
+    max-width: 100%;
+}
+
+iframe{
+    max-width: 100%;
+}

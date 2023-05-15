@@ -1,0 +1,75 @@
+
+/* ==== middle size ====*/
+@media screen and (min-width: 480px) and (max-width: 955px) {
+    .albums {
+        grid-template-columns: 1fr 1fr 1fr;
+    } 
+    .review-articles{
+        grid-template-columns: 1fr;
+    }
+    footer{
+        grid-template-columns: 1fr 1fr;
+    }
+    header{
+        grid-template-columns: 1fr 1fr;
+    }
+    .menu{
+        text-align: right;
+        font-size: 3.25rem;
+        color: #2490be;
+        margin-right: 0.81rem
+    }
+    .nav{
+        display: none;
+    }
+    .social-media{
+        display: none;
+    }
+    .reviews{
+        margin-right: 0%;
+    }
+}
+
+/* ==== small size ====*/
+@media screen and (max-width: 480px){
+    .menu{
+        text-align: right;
+        font-size: 3.25rem;
+        color: #2490be;
+        margin-right: 0.81rem
+    }
+    header{
+        grid-template-columns: 1fr 1fr;
+    }
+    .albums{
+        grid-template-columns: 1fr;
+    }
+    .review-articles{
+        grid-template-columns: 1fr;
+    }
+    footer{
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 2.43rem;
+    }
+    .nav{
+        display: none;
+    }
+    .social-media{
+        display: none;
+    }
+    h2{
+        margin-left: 0%;
+        text-align: center;
+    }
+    .footer-social-media i{
+        font-size: 2.31rem;
+    }
+}
+
+/* ==== learge size ====*/
+@media screen and (min-width: 955px){
+    .menu{
+        display: none;
+    }
+}
